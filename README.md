@@ -88,7 +88,7 @@ mvn jacoco:report
 
 ---
 
-###🤝 Contribuindo
+### 🤝 Contribuindo
 - Contribuições são muito bem-vindas! Se você deseja propor melhorias, abrir issues ou enviar pull requests, fique à vontade. 🚀
 
 ---
