@@ -77,7 +77,8 @@ mvn jacoco:report
 ### ✅ Requisitos
 - Java JDK 17+
 - Maven 3.8+
-- Docker (para testes com Testcontainers, opcional)
+- H2 
+- Docker (para testes com Testcontainers, roda PostGres ou MariaDB, MySQL, MongoDB, Redis )
 
 ---
 
