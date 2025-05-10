@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contador de Cliques</title>
+  <meta name="author" content="ACFA">
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      background: #f0f0f0;
+    }
+
+    #container {
+      text-align: center;
+      padding: 20px;
+      border: 1px solid #ececec;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      background: linear-gradient(to right, #e0e0e0, #f5f5f5);
+    }
+
+    #contador {
+      font-size: 44px;
+      margin-bottom: 20px;
+    }
+
+    #contador.verde {
+      color: green;
+    }
+
+    #contador.amarelo {
+      color: yellow;
+    }
+
+    #contador.vermelho {
+      color: red;
+    }
+
+    #botao {
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      background: linear-gradient(to right, #9b9b9b, #f0f0f0);
+      color: rgb(55, 55, 55);
+      cursor: pointer;
+      border-radius: 4px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra do botão */
+    }
+  </style>
+</head>
+<body>
+  <div id="container">
+    <p id="contador" class="verde">0</p>
+    <button id="botao" onclick="aumentarContador()"><b>CONTAR</b></button>
+  </div>
+
+  <script>
+    let contador = 0;
+    const contadorElement = document.getElementById('contador');
+
+    function aumentarContador() {
+      contador++;
+      contadorElement.innerText = `${contador}`;
+
+      if (contador <= 3) {
+        contadorElement.className = 'verde';
+      } else if (contador <= 6) {
+        contadorElement.className = 'amarelo';
+      } else {
+        contadorElement.className = 'vermelho';
+      }
+    }
+  </script>
+</body>
+</html>

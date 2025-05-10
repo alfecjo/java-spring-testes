@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Estudo de Tabelas</title>
+  </head>
+  <body>
+    <h1>Tabelas</h1>
+    <hr />
+    <table border="2" style="border-collapse: collapse">
+      <!-- Table Row -->
+      <tr>
+        <!-- Table data -->
+        <td>Nome</td>
+        <td>Idade</td>
+        <td>Comida favorita</td>
+      </tr>
+      <tr>
+        <td>Chris</td>
+        <td>38</td>
+        <td>Feijão</td>
+      </tr>
+      <tr>
+        <td>Dennis</td>
+        <td>45</td>
+        <td>Caju</td>
+      </tr>
+      <tr>
+        <td>Sahra</td>
+        <td>32</td>
+        <td>Vatapá</td>
+      </tr>
+    </table>
+    <hr />
+    <table border="1" style="border-collapse: collapse">
+      <!-- Cabeçalho da Tabela -->
+      <thead>
+        <tr>
+          <th colspan="4">Lista de Funcionários</th>
+        </tr>
+        <tr>
+          <!-- th table4 head -->
+          <th>#</th>
+          <th>Nome</th>
+          <th>E-mail</th>
+          <th>Pagamento realizado:</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>João Martins</td>
+          <td>joao.martins@gmail.com</td>
+          <td rowspan="2">Sim</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Carlos Antonio</td>
+          <td>carlos.antonio@gmail.com</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Maria Ferreira</td>
+          <td>maria.ferreira@gmail.com</td>
+          <td rowspan="2">Não</td>
+        </tr>
+
+        <tr>
+          <td>4</td>
+          <td>João Felipe</td>
+          <td>joao.felipe@gmail.com</td>
+        </tr>
+      </tbody>
+    </table>
+    <hr />
+    <table border="1" style="border-collapse: collapse">
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>Disciplina</th>
+          <th>Nota</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="3">David</td>
+          <td>Matemática</td>
+          <td>7,5</td>
+        </tr>
+        <tr>
+          <td>Física</td>
+          <td>9,5</td>
+        </tr>
+        <tr>
+            <td>Computação</td>
+            <td>9,1</td>
+        </tr>
+        <tr>
+          <td rowspan="3">Alex</td>
+          <td>Matemática</td>
+          <td>7,5</td>
+        </tr>
+        <tr>
+          <td>Física</td>
+          <td>9,9</td>
+        </tr>
+        <tr>
+            <td>Computação</td>
+            <td>7,1</td>
+        </tr>
+        <tr>
+          <td rowspan="3">Vitória</td>
+          <td>Matemática</td>
+          <td>8,4</td>
+        </tr>
+        <tr>
+          <td>Física</td>
+          <td>10,0</td>
+        </tr>
+        <tr>
+            <td>Computação</td>
+            <td>9,9</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maior Número em um Array</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        #output {
+            font-size: 20px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Encontrar o Maior Número em um Array</h2>
+    <h3>[14, 8, 22, 5, 37, 19, 42]</h3>
+    <div id="output"></div>
+
+    <script>
+        // Função para encontrar o maior número em um array
+        function encontrarMaiorNumero() {
+            let numeros = [14, 8, 22, 5, 37, 19, 42];
+            let maiorNumero = numeros[0];
+
+            for (let i = 1; i < numeros.length; i++) {
+                if (numeros[i] > maiorNumero) {
+                    maiorNumero = numeros[i];
+                }
+            }
+
+            return maiorNumero;
+        }
+
+        let resultado = encontrarMaiorNumero();
+        let outputDiv = document.getElementById('output');
+        outputDiv.textContent = `O maior número é: ${resultado}`;
+    </script>
+</body>
+</html>

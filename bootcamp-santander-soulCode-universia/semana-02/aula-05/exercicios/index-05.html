@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tamanho dos Nomes das Frutas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        #output {
+            font-size: 18px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Tamanho dos Nomes das Frutas</h2>
+    <div id="output"></div>
+
+    <script>
+        const frutas = ['Maçã', 'Banana', 'Morango', 'Abacaxi', 'Uva'];
+
+        function obterTamanhoNomesFrutas() {
+            let resultados = '';
+            for (let i = 0; i < frutas.length; i++) {
+                let tamanho = frutas[i].length;
+                resultados += `${frutas[i]}: ${tamanho} caracteres<br>`;
+            }
+            return resultados;
+        }
+
+        let resultadosTamanhos = obterTamanhoNomesFrutas();
+        let outputDiv = document.getElementById('output');
+        outputDiv.innerHTML = resultadosTamanhos;
+    </script>
+</body>
+</html>

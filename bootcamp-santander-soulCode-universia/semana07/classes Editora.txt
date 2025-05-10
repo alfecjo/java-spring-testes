@@ -1,0 +1,144 @@
+Antonio Carlos Ferreira de Almeida...
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.Size;
+
+@Entity
+public class Livro {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Integer idLivro;
+
+    @NotBlank
+    @Size(max = 120)
+    private String titulo;
+
+    @NotBlank
+    @Size(max = 180)
+    private String descricao;
+
+    @NotBlank
+    @Size(max = 80)
+    private String autor;
+
+    @NotBlank
+    @Size(max = 40)
+    private String editora;
+
+    private Integer paginas;
+
+    public Livro() {}
+
+    public Integer getIdLivro() {
+        return idLivro;
+    }
+
+    public void setIdLivro(Integer idLivro) {
+        this.idLivro = idLivro;
+    }
+
+    public String getTitulo() {
+        return titulo;
+    }
+
+    public void setTitulo(String titulo) {
+        this.titulo = titulo;
+    }
+
+    public String getDescricao() {
+        return descricao;
+    }
+
+    public void setDescricao(String descricao) {
+        this.descricao = descricao;
+    }
+
+    public String getAutor() {
+        return autor;
+    }
+
+    public void setAutor(String autor) {
+        this.autor = autor;
+    }
+
+    public String getEditora() {
+        return editora;
+    }
+
+    public void setEditora(String editora) {
+        this.editora = editora;
+    }
+
+    public Integer getPaginas() {
+        return paginas;
+    }
+
+    public void setPaginas(Integer paginas) {
+        this.paginas = paginas;
+    }
+}
+
+________________________________________________________________
+
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.validation.constraints.NotNull;
+import java.time.LocalDate;
+
+@Entity
+public class Emprestimo {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Integer idEmprestimo;
+
+    @NotNull
+    private LocalDate dataRealizada;
+
+    @NotNull
+    private LocalDate dataDevolucao;
+
+    private Boolean finalizado = false;
+
+    public Emprestimo() {}
+
+    public Integer getIdEmprestimo() {
+        return idEmprestimo;
+    }
+
+    public void setIdEmprestimo(Integer idEmprestimo) {
+        this.idEmprestimo = idEmprestimo;
+    }
+
+    public LocalDate getDataRealizada() {
+        return dataRealizada;
+    }
+
+    public void setDataRealizada(LocalDate dataRealizada) {
+        this.dataRealizada = dataRealizada;
+    }
+
+    public LocalDate getDataDevolucao() {
+        return dataDevolucao;
+    }
+
+    public void setDataDevolucao(LocalDate dataDevolucao) {
+        this.dataDevolucao = dataDevolucao;
+    }
+
+    public Boolean getFinalizado() {
+        return finalizado;
+    }
+
+    public void setFinalizado(Boolean finalizado) {
+        this.finalizado = finalizado;
+    }
+}

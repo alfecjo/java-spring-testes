@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador de 50 a 75</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        #output {
+            font-size: 20px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Contador de 50 a 75</h2>
+    <div id="output"></div>
+
+    <script>        
+        function contarNumeros() {
+            let outputDiv = document.getElementById('output');
+            let numeros = [];
+
+            for (let i = 50; i <= 75; i++) {
+                numeros.push(i);
+            }
+
+            outputDiv.textContent = numeros.join(', ');
+        }
+
+        contarNumeros();
+    </script>
+</body>
+</html>

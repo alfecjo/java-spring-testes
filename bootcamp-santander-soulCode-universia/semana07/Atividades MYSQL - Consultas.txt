@@ -1,0 +1,73 @@
+Atividades MYSQL - Consultas
+
+REALIZAR AS CONSULTAS:
+
+SELECT * FROM produtos
+WHERE preco BETWEEN 50.00 AND 100.00;
+
+
+SELECT nome FROM produtos
+WHERE nome LIKE '%Smart%';
+
+
+SELECT * FROM produtos
+WHERE id IN (1, 3, 5);
+
+
+SELECT * FROM produtos
+ORDER BY nome ASC;
+
+
+SELECT * FROM produtos
+ORDER BY preco DESC
+LIMIT 5;
+
+
+SELECT * FROM produtos
+WHERE preco BETWEEN 30.0 AND 60.0
+ORDER BY preco DESC;
+
+
+SELECT * FROM produtos
+WHERE nome LIKE 'C%'
+ORDER BY nome;
+
+
+SELECT * FROM produtos
+WHERE id IN (2, 4, 6)
+  AND nome LIKE '%HD%';
+
+
+SELECT * FROM produtos
+WHERE preco BETWEEN 10.00 AND 50.00
+LIMIT 3;
+
+
+SELECT * FROM produtos
+WHERE nome LIKE '%Gaming%'
+LIMIT 5;
+
+
+SELECT * FROM produtos
+ORDER BY preco ASC
+LIMIT 10;
+
+SELECT * FROM produtos
+WHERE codigo BETWEEN 3 AND 7 OR codigo IN (10, 11, 12);
+
+
+SELECT * FROM produtos
+WHERE nome LIKE '%X'
+ORDER BY nome DESC;
+
+
+SELECT * FROM produtos
+WHERE id IN (1, 5, 8, 11)
+LIMIT 2;
+
+
+SELECT * FROM produtos
+WHERE preco BETWEEN 25 AND 75
+AND nome LIKE '%Slim%';
+
+Fim...

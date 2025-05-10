@@ -1,0 +1,59 @@
+Crie uma tabela chamada clientes com as colunas: id, nome, email e telefone, idade, ?
+
+CREATE TABLE clientes (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(255) NOT NULL,
+    email VARCHAR(255) NOT NULL,
+    telefone VARCHAR(20),
+    idade INT
+);
+
+Adicione cinco registros à tabela clientes com informações fictícias, garantindo que cada registro tenha um valor único para o campo id,?
+
+
+INSERT INTO clientes (nome, email, telefone, idade) VALUES
+('João Silva', 'joao@email.com', '123456789', 30),
+('Maria Oliveira', 'maria@email.com', '987654321', 25),
+('Carlos Santos', 'carlos@email.com', '555444333', 40),
+('Ana Souza', 'ana@email.com', '111222333', 22),
+('Pedro Pereira', 'pedro@email.com', '777888999', 35);
+
+Crie uma tabela chamada produtos com as colunas: codigo, nome, preco e quantidade?
+
+CREATE TABLE produtos (
+    codigo INT PRIMARY KEY AUTO_INCREMENT,
+    nome VARCHAR(255) NOT NULL,
+    preco DECIMAL(10, 2) NOT NULL,
+    quantidade INT NOT NULL
+);
+
+Insira três registros na tabela produtos com informações fictícias?
+
+INSERT INTO produtos (nome, preco, quantidade) VALUES
+    ('Produto A', 29.99, 100),
+    ('Produto B', 49.99, 50),
+    ('Produto C', 19.99, 200);
+
+Crie uma tabela chamada itens com as colunas: id, codigo_produto, id_cliente e quantidade?
+
+CREATE TABLE itens (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    codigo_produto INT,
+    id_cliente INT,
+    quantidade INT,
+    FOREIGN KEY (codigo_produto) REFERENCES produtos(codigo),
+    FOREIGN KEY (id_cliente) REFERENCES clientes(id)
+);
+
+Adicione cinco itens à tabela itens, relacionando-os a clientes existentes e produtos disponíveis?
+
+INSERT INTO itens (codigo_produto, id_cliente, quantidade) VALUES
+    (1, 1, 3),  -- Produto 1 para Cliente 1, quantidade 3
+    (2, 2, 1),  -- Produto 2 para Cliente 2, quantidade 1
+    (3, 3, 5),  -- Produto 3 para Cliente 3, quantidade 5
+    (1, 4, 2),  -- Produto 1 para Cliente 4, quantidade 2
+    (2, 5, 4);  -- Produto 2 para Cliente 5, quantidade 4
+
+
+
+

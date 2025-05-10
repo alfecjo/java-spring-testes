@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700;1,900&family=Roboto:wght@100&display=swap');
+
+* {
+  margin: 55px;
+  border: 5px solid gray;
+  /* força o tamanho de box */
+  box-sizing: border-box;
+  background-color: antiquewhite;
+}
+h3 {
+  background-color: rgb(180, 195, 195);
+}
+
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+/* margin, border e padding */
+.box1,
+.box2,
+.box3,
+.box4 {
+  margin: 5px 0px;
+}
+
+.box1 {
+  background-color: coral;
+  padding: 30px;
+}
+
+.box2 {
+  background-color: rgb(167, 167, 167);
+  padding: 55px;
+}
+
+.box3 {
+  background-color: rgb(221, 221, 221);
+  padding: 30px;
+}
+
+.box4 {
+  background-color: rgb(230, 234, 186);
+  padding: 55px;
+}
+
+/* por ser um elemento inline, não obedece largura.. */
+
+.link-custon1{
+   display: inline-block
+    text-decoration: none;
+    color: azure;
+    background-color: blueviolet;
+    width:120px;
+    padding: 16px 8px 16px 8px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.link-custon1:hover{
+    background-color: rgb(201, 164, 199);
+}
+
+.link-custon2{
+    display: inline-block
+    text-decoration: none;
+    color: azure;
+    background-color: blueviolet;
+    width:120px;
+    padding: 16px 8px 16px 8px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.link-custon2:hover{
+    background-color: rgb(201, 164, 199);
+}
+
+.link-custon3{
+    display: inline-block
+    text-decoration: none;
+    color: azure;
+    background-color: blueviolet;
+    width:120px;
+    padding: 16px 8px 16px 8px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.link-custon3:hover{
+    background-color: rgb(201, 164, 199);
+}
+
+.link-custon3:active {
+  text-decoration: underline;
+}

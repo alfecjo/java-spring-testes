@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Média de Números</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        #output {
+            font-size: 18px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Média de Números</h2>
+    <script>        
+        let numeros = [];
+
+        for (let i = 1; i <= 4; i++) {
+            let numero = prompt(`Digite o ${i}º número:`);
+            numeros.push(parseFloat(numero)); // Converte o valor para número e insere no array
+        }
+
+        // Calcula a média dos números
+        let soma = 0;
+        for (let i = 0; i < numeros.length; i++) {
+            soma += numeros[i];
+        }
+        let media = soma / numeros.length;
+
+        let outputDiv = document.createElement('div');
+        outputDiv.id = 'output';
+        outputDiv.innerHTML = `A média dos números é: ${media.toFixed(2)}`;
+        document.body.appendChild(outputDiv);
+    </script>
+</body>
+</html>

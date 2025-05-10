@@ -1,0 +1,54 @@
+CREATE DATABASE clinicaboasaude;
+
+CREATE TABLE atende (
+  medico VARCHAR(255) NOT NULL,
+  convenio INT NOT NULL,
+  PRIMARY KEY (medico, convenio),
+  CONSTRAINT fk_atende_medico FOREIGN KEY (medico) REFERENCES medico (crm),
+  CONSTRAINT fk_atende_convenio FOREIGN KEY (convenio) REFERENCES convenio (codconv)
+);
+
+CREATE TABLE consulta (
+  codconsulta INT NOT NULL,
+  data DATE DEFAULT NULL,
+  horario TIME DEFAULT NULL,
+  medico VARCHAR(255) DEFAULT NULL,
+  paciente VARCHAR(255) DEFAULT NULL,
+  convenio INT DEFAULT NULL,
+  porcent DECIMAL(5, 2) DEFAULT NULL,
+  PRIMARY KEY (codconsulta),
+  CONSTRAINT fk_consulta_convenio FOREIGN KEY (convenio) REFERENCES convenio (codconv)
+);
+
+CREATE TABLE convenio (
+  codconv INT NOT NULL,
+  nome VARCHAR(255) DEFAULT NULL,
+  PRIMARY KEY (codconv)
+);
+
+CREATE TABLE medico (
+  crm VARCHAR(15) NOT NULL,
+  nome VARCHAR(255) DEFAULT NULL,
+  endereco VARCHAR(255) DEFAULT NULL,
+  telefone VARCHAR(20) DEFAULT NULL,
+  especialidade VARCHAR(100) DEFAULT NULL,
+  PRIMARY KEY (crm)
+);
+
+CREATE TABLE paciente (
+  codpac INT NOT NULL,
+  nome VARCHAR(255) DEFAULT NULL,
+  endereco VARCHAR(255) DEFAULT NULL,
+  telefone VARCHAR(20) DEFAULT NULL,
+  PRIMARY KEY (codpac)
+);
+
+CREATE TABLE possui (
+  paciente INT NOT NULL,
+  convenio INT NOT NULL,
+  tipo VARCHAR(255) DEFAULT NULL,
+  vencimento DATE DEFAULT NULL,
+  PRIMARY KEY (paciente, convenio),
+  CONSTRAINT fk_possui_paciente FOREIGN KEY (paciente) REFERENCES paciente (codpac),
+  CONSTRAINT fk_possui_convenio FOREIGN KEY (convenio) REFERENCES convenio (codconv)
+);

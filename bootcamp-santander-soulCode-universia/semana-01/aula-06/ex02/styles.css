@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.boxes {
+    background-color: cadetblue;
+    padding: 16px;
+    display: flex;
+}
+
+.box-1,
+.box-2,
+.box-3 {
+    width: 400px;
+    padding: 8px;
+    border-radius: 8px;
+    margin-right: 1px;
+    /* Adicionando margem à direita para afastar as caixas */
+    transition: background-color 0.3s ease;
+    /* Adicionando uma transição suave */
+}
+
+.box-4 {
+    width: 400px;
+    padding: 8px;
+    border-radius: 8px;
+    margin-right: 0;
+    /* Evitando a margem na última caixa */
+    background-color: indigo;
+    color: white;
+    transition: background-color 0.3s ease;
+    /* Adicionando uma transição suave */
+}
+
+/* Altera a cor ao passar o mouse sobre as caixas */
+.box-1:hover,
+.box-2:hover,
+.box-3:hover {
+    background-color: lightcoral;
+}
+
+.box-4:hover {
+    background-color: rgb(2, 114, 162);
+}

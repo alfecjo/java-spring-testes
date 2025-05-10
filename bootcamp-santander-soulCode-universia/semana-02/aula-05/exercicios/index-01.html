@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador de Ímpares</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        #output {
+            font-size: 20px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Contador de Ímpares</h2>
+    <div id="output"></div>
+
+    <script>
+        function contarImpares() {
+            let outputDiv = document.getElementById('output');
+            let impares = [];
+
+            for (let i = 0; i <= 99; i++) {
+                if (i % 2 !== 0) {
+                    impares.push(i);
+                }
+            }
+
+            outputDiv.textContent = impares.join(', ');
+        }
+
+        contarImpares();
+    </script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada do 5</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        #output {
+            font-size: 18px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Tabuada do 5</h2>
+    <div id="output"></div>
+
+    <script>
+        function gerarTabuada() {
+            let tabuada = '';
+            for (let i = 0; i <= 10; i++) {
+                let resultado = 5 * i;
+                tabuada += `5 x ${i} = ${resultado}<br>`;
+            }
+            return tabuada;
+        }
+
+        let tabuadaResultado = gerarTabuada();
+        let outputDiv = document.getElementById('output');
+        outputDiv.innerHTML = tabuadaResultado;
+    </script>
+</body>
+</html>

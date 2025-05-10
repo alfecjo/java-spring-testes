@@ -1,0 +1,17 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "127.1.1.0",
+            "port": 5432,
+            "askForPassword": true,
+            "driver": "PostgreSQL",
+            "name": "clinicaboasaude",
+            "database": "clinicaboasaude",
+            "username": "postgres"
+        }
+    ],
+    "dataworkspace.excludedProjects": [
+        "Clinica/Clinica.sqlproj"
+    ]
+}

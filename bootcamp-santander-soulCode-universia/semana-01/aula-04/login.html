@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1>Formulários HTML</h1>
+      <nav>
+        <a href="https://www.google.com.br/">Goole</a>
+
+        <a href="https://soulcode.com/">SoulCode</a>
+
+        <a href="./login.html">Login</a>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <form>
+          <fieldset>
+            <legend>Login de Usuário</legend>
+            <label for="name"
+              >Nome:
+              <input
+                type="text"
+                maxlength="10"
+                placeholder="Entre com seu nome"
+            /></label>
+            <label for="email"
+              >E-mail:
+              <input
+                type="text"
+                maxlength="10"
+                placeholder="Entre com seu E-mail"
+            /></label>
+            <label for="senha"
+              >Senha:
+              <input
+                type="password"
+                maxlength="8"
+                placeholder="Entre com sua senha"
+            /></label>
+            <label for="enviar"><input type="submit" value="Enviar" /></label>
+          </fieldset>
+        </form>
+      </section>
+      <section>
+        <form>
+          <fieldset>
+            <legend>Cadastro de novos Usuários</legend>
+            <label for="empregado"><input type="checkbox" />Empregado..</label>
+            <label for="estudando"><input type="checkbox" />Estudante..</label>
+            <label for="brasileiro"
+              ><input type="checkbox" />Brasileiro..</label
+            >
+            <label for="cor_favorita">
+              <input type="color" />Cor favorita..</label
+            >
+            <label for="data_nascimento"
+              >Data de nascimento.. <input type="date"
+            /></label>
+            <label for="foto"><input type="file" />..</label>
+            <label for="oculto"><input type="hidden" value="user" />..</label>
+            <label for="capa"
+              >Capa de perfil:<input type="image" src="" />..</label
+            >
+            <label for="idade"
+              >Idade:<input type="number" min="0" max="55" />..</label
+            >
+            <label for="aniversario">
+              Aniversario:<input type="month" />..</label
+            >
+            <label for="experiencia">
+              Experiência:<input type="range" min="0" max="5" />..</label
+            >
+            <label for="procura"> Search:<input type="search" />..</label>
+            <label for="telefone"> Telefone:<input type="tel" />..</label>
+            <label for="hora_cadastro"> Time:<input type="time" />..</label>
+            <label for="semana"> Semana:<input type="week" />..</label>
+            <label for="linkedin">
+              Linkedin:<input type="url" placeholder="Linkedin" />..</label
+            >
+            <div>
+              <input type="submit" value="Enviar" />
+              <input type="reset" value="Limpar" />
+            </div>
+            <label for="estado_civil">
+              Estado Civil:<input
+                type="radio"
+                name="estado_civil"
+                value="solteiro"
+              />solteiro..<input
+                type="radio"
+                name="estado_civil"
+                value="casado"
+              />casado..<input
+                type="radio"
+                name="estado_civil"
+                value="estavel"
+              />estável..<input
+                type="radio"
+                name="estado_civil"
+                value="divorciado"
+              />divorciado..<input
+                type="radio"
+                name="estado_civil"
+                value="viuvo"
+              />viúvo..<input
+                type="radio"
+                name="estado_civil"
+                value="separado"
+              />separado..</label
+            >            
+          </fieldset>
+        </form>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>

@@ -1,0 +1,57 @@
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap");
+/* Adicionado o background preto para a navegação */
+.topnav {
+    background-color: #333;
+    /* Posição travada */
+    overflow: hidden;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 20%;
+    /* Defina a largura desejada para os cards */
+    border-radius: 5%;
+    margin: 2px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    /* Isso mantém a proporção da imagem */
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: rgb(170, 97, 3);
+}
+
+.topnav a.active {
+    background-color: #03c8ff;
+    color: white;
+}
