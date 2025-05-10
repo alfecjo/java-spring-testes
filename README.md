@@ -11,7 +11,7 @@
 🔗 [![Framework](https://img.shields.io/badge/UTFPR-Avaliação-brightgreen?style=for-the-badge)](./avaliacao_UTFPR)
 
 <p>
-🚀 Avaliação prática do curso de Pós-graduação em Tecnologia Java da <strong>UTFPR - Universidade Tecnológica Federal do Paraná</strong>, disciplina <strong> Banco de Dados</strong>, abordando desenvolvimento com <strong>Java</strong> e <strong>Spring Framework</strong>. O projeto consolida conhecimentos introdutório da stack Java com foco em aplicações robustas e profissionais.
+🚀 Explore avaliação prática do curso de Pós-graduação em Tecnologia Java da <strong>UTFPR - Universidade Tecnológica Federal do Paraná</strong>, disciplina <strong> Banco de Dados</strong>, abordando desenvolvimento com <strong>Java</strong> e <strong>Spring Framework</strong>. O projeto consolida conhecimentos introdutório da stack Java com foco em aplicações robustas e profissionais.
 </p>
 
 ---
@@ -19,19 +19,19 @@
 🔗 [![Linguagem](https://img.shields.io/badge/Linguagem-Java_I-blue?style=for-the-badge)](./java_I)
 
 <p>
-🎓 Avaliação prática da disciplina <strong>Java I</strong> do curso de Pós-graduação em Tecnologia Java da <strong>UTFPR - Universidade Tecnológica Federal do Paraná</strong>. Esta etapa introdutória explora os fundamentos essenciais da linguagem <strong>Java</strong>, como sintaxe, estruturas de controle, orientação a objetos, tratamento de exceções e manipulação básica de dados. Ideal para consolidar a base do desenvolvimento profissional com Java puro.
+🎓 Explore avaliação prática da disciplina <strong>Java I</strong> do curso de Pós-graduação em Tecnologia Java da <strong>UTFPR - Universidade Tecnológica Federal do Paraná</strong>. Esta etapa introdutória explora os fundamentos essenciais da linguagem <strong>Java</strong>, como sintaxe, estruturas de controle, orientação a objetos, tratamento de exceções e manipulação básica de dados. Ideal para consolidar a base do desenvolvimento profissional com Java puro.
 </p>
 
 🔗 [![Linguagem](https://img.shields.io/badge/Linguagem-Java_II-blue?style=for-the-badge)](./java_II)
 
 <p>
-🎓 Avaliação prática da disciplina <strong>Java II</strong> do curso de Pós-graduação em Tecnologia Java da <strong>UTFPR - Universidade Tecnológica Federal do Paraná</strong>. Esta fase aprofunda os conceitos de programação com <strong>Java</strong>, incluindo coleções, tratamento avançado de exceções, entrada/saída de dados (I/O), programação orientada a eventos e uso de bibliotecas utilitárias. Um passo essencial para avançar no desenvolvimento de aplicações robustas.
+🎓 Explore avaliação prática da disciplina <strong>Java II</strong> do curso de Pós-graduação em Tecnologia Java da <strong>UTFPR - Universidade Tecnológica Federal do Paraná</strong>. Esta fase aprofunda os conceitos de programação com <strong>Java</strong>, incluindo coleções, tratamento avançado de exceções, entrada/saída de dados (I/O), programação orientada a eventos e uso de bibliotecas utilitárias. Um passo essencial para avançar no desenvolvimento de aplicações robustas.
 </p>
 
 🔗 [![Linguagem](https://img.shields.io/badge/Java-Redes_de_Computadores-blue?style=for-the-badge)](./redes)
 
 <p>
-🎓 Avaliação prática da disciplina <strong>Programação Java para Redes de Computadores</strong> do curso de Pós-graduação em Tecnologia Java da <strong>UTFPR - Universidade Tecnológica Federal do Paraná</strong>. Esta etapa explora a criação de aplicações cliente-servidor usando <strong>sockets TCP/UDP</strong>, manipulação de <strong>streams de dados</strong>, <strong>protocolos de comunicação</strong> e fundamentos de <strong>programação distribuída</strong> com Java. Ideal para quem busca aplicar a linguagem na área de redes e sistemas conectados.
+🎓 Explore avaliação prática da disciplina <strong>Programação Java para Redes de Computadores</strong> do curso de Pós-graduação em Tecnologia Java da <strong>UTFPR - Universidade Tecnológica Federal do Paraná</strong>. Esta etapa explora a criação de aplicações cliente-servidor usando <strong>sockets TCP/UDP</strong>, manipulação de <strong>streams de dados</strong>, <strong>protocolos de comunicação</strong> e fundamentos de <strong>programação distribuída</strong> com Java. Ideal para quem busca aplicar a linguagem na área de redes e sistemas conectados.
 </p>
 
 ---
