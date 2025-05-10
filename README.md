@@ -11,12 +11,18 @@
 🔗 [![Framework](https://img.shields.io/badge/UTFPR-Avaliação-brightgreen?style=for-the-badge)](./avaliacao_UTFPR)
 
 <p>
-🚀 Avaliação prática do curso de Pós-graduação em Tecnologia Java da <strong>UTFPR - Universidade Tecnológica Federal do Paraná</strong>, abordando desenvolvimento com <strong>Java</strong> e <strong>Spring Framework</strong>. O projeto consolida conhecimentos introdutório da stack Java com foco em aplicações robustas e profissionais.
+🚀 Avaliação prática do curso de Pós-graduação em Tecnologia Java da <strong>UTFPR - Universidade Tecnológica Federal do Paraná</strong>, disciplina <strong> Banco de Dados</strong>, abordando desenvolvimento com <strong>Java</strong> e <strong>Spring Framework</strong>. O projeto consolida conhecimentos introdutório da stack Java com foco em aplicações robustas e profissionais.
 </p>
 
 ---
 
-🔗 [![Linguagem](https://img.shields.io/badge/Linguagem-Java-blue?style=for-the-badge)](https://www.oracle.com/java/)
+🔗 [![Linguagem](https://img.shields.io/badge/Linguagem-Java_I-blue?style=for-the-badge)]()
+
+<p>
+🎓 Avaliação prática da disciplina <strong>Java I</strong> do curso de Pós-graduação em Tecnologia Java da <strong>UTFPR - Universidade Tecnológica Federal do Paraná</strong>. Esta etapa introdutória explora os fundamentos essenciais da linguagem <strong>Java</strong>, como sintaxe, estruturas de controle, orientação a objetos, tratamento de exceções e manipulação básica de dados. Ideal para consolidar a base do desenvolvimento profissional com Java puro.
+</p>
+
+---
 
 🔗 [![Testes](https://img.shields.io/badge/Testes-JUnit_5_&_Mockito-orange?style=for-the-badge)](https://junit.org/junit5/)
 
