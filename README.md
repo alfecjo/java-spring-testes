@@ -12,7 +12,7 @@
 🔗 [![Framework](https://img.shields.io/badge/Spring-Boot-brightgreen?style=for-the-badge)](https://spring.io/projects/spring-boot)
 
 <p>
-  Avaliação prática do curso de Pós-graduação em Tecnologia Java da <strong>UTFPR - Universidade Tecnológica Federal do Paraná</strong>, abordando desenvolvimento com <strong>Java</strong> e <strong>Spring Framework</strong>. O projeto consolida conhecimentos introdutório da stack Java com foco em aplicações robustas e profissionais.
+🚀 Avaliação prática do curso de Pós-graduação em Tecnologia Java da <strong>UTFPR - Universidade Tecnológica Federal do Paraná</strong>, abordando desenvolvimento com <strong>Java</strong> e <strong>Spring Framework</strong>. O projeto consolida conhecimentos introdutório da stack Java com foco em aplicações robustas e profissionais.
 </p>
 
 ---
