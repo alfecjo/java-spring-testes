@@ -36,7 +36,9 @@
 
 ---
 
-🔗 [![Testes](https://img.shields.io/badge/Redes-UTFPR-orange?style=for-the-badge)](./redes)
+🔗 [![Testes](https://img.shields.io/badge/Redes-UTFPR-orange?style=for-the-badge)](./spring-data-jpa-main)
+
+<p> 🎓 Explore Avaliação prática da disciplina <strong>Programação com JPA</strong> do curso de Pós-graduação em Tecnologia Java da <strong>UTFPR - Universidade Tecnológica Federal do Paraná</strong>. Este projeto aprofunda o uso da <strong>Java Persistence API (JPA)</strong> com foco em mapeamento objeto-relacional, <strong>relacionamentos entre entidades (OneToMany, ManyToOne, ManyToMany)</strong>, operações de persistência e boas práticas com <strong>Spring Data JPA</strong>. Ideal para consolidar o desenvolvimento de aplicações Java conectadas a bancos de dados relacionais de forma profissional e escalável. </p>
 
 ---
 
