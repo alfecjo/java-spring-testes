@@ -9,7 +9,7 @@
 - Testes.
 - Visualização das tabelas.
 
-  - Para mais detalhe, consulte Atividade 01.pdf. Em bd/Antonio Carlos Ferreira de Almeida_Atividade01.txt estão as queries em resposta ao que é pedido. Também é possível aprender migrations com Postgres em bd/src/main/resources/db/migration/V1_Create-tables-music.sql. Explore testes unitários e verifique a cobertura com Jococo...
+> Para mais detalhe, consulte Atividade 01.pdf. Em bd/Antonio Carlos Ferreira de Almeida_Atividade01.txt estão as queries em resposta ao que é pedido. Também é possível aprender migrations com Postgres em bd/src/main/resources/db/migration/V1_Create-tables-music.sql. Explore testes unitários e verifique a cobertura com Jococo...
 
 ---
 
