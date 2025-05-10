@@ -28,8 +28,6 @@
 🎓 Avaliação prática da disciplina <strong>Java II</strong> do curso de Pós-graduação em Tecnologia Java da <strong>UTFPR - Universidade Tecnológica Federal do Paraná</strong>. Esta fase aprofunda os conceitos de programação com <strong>Java</strong>, incluindo coleções, tratamento avançado de exceções, entrada/saída de dados (I/O), programação orientada a eventos e uso de bibliotecas utilitárias. Um passo essencial para avançar no desenvolvimento de aplicações robustas.
 </p>
 
----
-
 🔗 [![Linguagem](https://img.shields.io/badge/Java-Redes_de_Computadores-blue?style=for-the-badge)](./redes)
 
 <p>
@@ -38,7 +36,13 @@
 
 ---
 
+🔗 [![Testes](https://img.shields.io/badge/Redes-UTFPR-orange?style=for-the-badge)](./redes)
+
+---
+
 🔗 [![Licença](https://img.shields.io/badge/Licença-MIT-green?style=for-the-badge)](LICENSE)
+
+---
 
 ## 📌 Descrição
 
