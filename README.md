@@ -1,3 +1,23 @@
+## 📌 Descrição
+
+Este repositório contém exemplos práticos de **testes automatizados em aplicações Java Spring**, utilizando os frameworks **JUnit 5**, **Mockito**, **Spring Test**, e outras ferramentas modernas. O foco está em demonstrar boas práticas de **testes unitários, de integração, mock e testes de camada web (MockMvc)**, incluindo cobertura de código e organização modular dos testes.
+
+> ⚠️ **Este projeto está em desenvolvimento.** Algumas funcionalidades podem estar incompletas ou sujeitas a mudanças.
+
+---
+
+## 🚀 Tecnologias Utilizadas
+
+- ☕ **Java 17+**
+- 🌱 **Spring Boot 3.x**
+- ✅ **JUnit 5 (Jupiter)**
+- 🧪 **Mockito**
+- 🌐 **Spring Web & Spring Test**
+- 🧬 **Testcontainers (para testes com bancos reais em Docker)**
+- 📊 **JaCoCo (cobertura de testes)**
+
+---
+
 # 🧪 Java Spring & Testes
 
 🔗 [![Status](https://img.shields.io/badge/Bootcamp-Santander-yellow?style=for-the-badge)](./bootcamp-santander-soulCode-universia)
@@ -47,26 +67,6 @@
 ---
 
 🔗 [![Licença](https://img.shields.io/badge/Licença-MIT-green?style=for-the-badge)](LICENSE)
-
----
-
-## 📌 Descrição
-
-Este repositório contém exemplos práticos de **testes automatizados em aplicações Java Spring**, utilizando os frameworks **JUnit 5**, **Mockito**, **Spring Test**, e outras ferramentas modernas. O foco está em demonstrar boas práticas de **testes unitários, de integração, mock e testes de camada web (MockMvc)**, incluindo cobertura de código e organização modular dos testes.
-
-> ⚠️ **Este projeto está em desenvolvimento.** Algumas funcionalidades podem estar incompletas ou sujeitas a mudanças.
-
----
-
-## 🚀 Tecnologias Utilizadas
-
-- ☕ **Java 17+**
-- 🌱 **Spring Boot 3.x**
-- ✅ **JUnit 5 (Jupiter)**
-- 🧪 **Mockito**
-- 🌐 **Spring Web & Spring Test**
-- 🧬 **Testcontainers (para testes com bancos reais em Docker)**
-- 📊 **JaCoCo (cobertura de testes)**
 
 ---
 
