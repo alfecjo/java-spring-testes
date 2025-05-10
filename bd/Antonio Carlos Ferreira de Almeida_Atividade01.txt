@@ -1,0 +1,86 @@
+#Respostas
+
+#Questão 01
+SELECT c.nome_cantor, g.num_gravacoes
+FROM cantor c
+JOIN (
+    SELECT cod_cantor, COUNT(*) AS num_gravacoes
+    FROM gravacao
+    GROUP BY cod_cantor
+) g ON c.cod_cantor = g.cod_cantor
+WHERE g.num_gravacoes = (
+    SELECT MIN(num_gravacoes)
+    FROM (
+        SELECT COUNT(*) AS num_gravacoes
+        FROM gravacao
+        GROUP BY cod_cantor
+    ) subquery
+);
+
+#Questão 02  
+SELECT c.nome_cantor, COUNT(DISTINCT g.cod_gravadora) AS num_gravadoras
+FROM cantor c
+JOIN gravacao g ON c.cod_cantor = g.cod_cantor
+GROUP BY c.cod_cantor, c.nome_cantor
+HAVING COUNT(DISTINCT g.cod_gravadora) = (
+    SELECT MAX(num_gravadoras)
+    FROM (
+        SELECT COUNT(DISTINCT g.cod_gravadora) AS num_gravadoras
+        FROM cantor c
+        JOIN gravacao g ON c.cod_cantor = g.cod_cantor
+        GROUP BY c.cod_cantor
+    ) subquery
+);
+
+#Questão 03
+SELECT c.nome_cantor, AVG(m.duracao) AS avg_duracao
+FROM cantor c
+JOIN gravacao g ON c.cod_cantor = g.cod_cantor
+JOIN musica m ON g.cod_musica = m.cod_musica
+GROUP BY c.cod_cantor, c.nome_cantor
+HAVING AVG(m.duracao) = (
+    SELECT MAX(avg_duracao)
+    FROM (
+        SELECT AVG(m2.duracao) AS avg_duracao
+        FROM cantor c2
+        JOIN gravacao g2 ON c2.cod_cantor = g2.cod_cantor
+        JOIN musica m2 ON g2.cod_musica = m2.cod_musica
+        GROUP BY c2.cod_cantor
+    ) subquery
+);
+
+#Questão 04
+SELECT c.nome_cantor
+FROM cantor c
+WHERE NOT EXISTS (
+    SELECT 1
+    FROM gravacao g
+    JOIN gravadora gv ON g.cod_gravadora = gv.cod_gravadora
+    WHERE c.cod_cantor = g.cod_cantor
+    AND gv.nome_gravadora = 'Sony'
+);
+
+#Questão 05
+SELECT m.titulo AS nome_musica, c.nome_cantor, g.data_gravacao
+FROM gravacao g
+JOIN cantor c ON g.cod_cantor = c.cod_cantor
+JOIN musica m ON g.cod_musica = m.cod_musica
+WHERE YEAR(g.data_gravacao) = 2004;
+
+#Questão 06
+SELECT c.nome_cantor, IFNULL(MAX(g.data_gravacao), '') AS ultima_gravacao
+FROM cantor c
+LEFT JOIN gravacao g ON c.cod_cantor = g.cod_cantor
+GROUP BY c.nome_cantor
+ORDER BY ultima_gravacao DESC;
+
+#Questão 07
+SELECT p.nome_pessoa,
+       IF(f_residencial.numero IS NOT NULL, f_residencial.numero, '') AS telefone_residencial,
+       IF(f_comercial.numero IS NOT NULL, f_comercial.numero, '') AS telefone_comercial,
+       IF(f_celular.numero IS NOT NULL, f_celular.numero, '') AS telefone_celular
+FROM pessoa p
+LEFT JOIN fone f_residencial ON p.cod_pessoa = f_residencial.cod_pessoa AND f_residencial.tipo = 'R'
+LEFT JOIN fone f_comercial ON p.cod_pessoa = f_comercial.cod_pessoa AND f_comercial.tipo = 'C'
+LEFT JOIN fone f_celular ON p.cod_pessoa = f_celular.cod_pessoa AND f_celular.tipo = 'L'
+WHERE f_residencial.numero IS NOT NULL OR f_comercial.numero IS NOT NULL OR f_celular.numero IS NOT NULL;

@@ -1,0 +1,41 @@
+services:
+  app:
+    image: 'postgres:latest'
+    build:
+      context: .
+    container_name: app
+    depends_on:
+      - postgres
+    environment:
+      - POSTGRES_USER=${YOUR_USERNAME}
+      - POSTGRES_PASSWORD=${YOUR_PASSWORD}
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://postgres:5432/${YOUR_DB_NAME}
+      - SPRING_DATASOURCE_USERNAME=${YOUR_USERNAME}
+      - SPRING_DATASOURCE_PASSWORD=${YOUR_PASSWORD}
+      - SPRING_JPA_HIBERNATE_DDL_AUTO=update
+    ports:
+      - "${LOCAL_PORT}:${DOCKER_PORT}"
+    networks:
+      - mynetwork
+
+  postgres:
+    image: postgres:latest
+    container_name: postgres
+    ports:
+      - "${LOCAL_PORT}:${DOCKER_PORT}"
+    environment:
+      POSTGRES_USER: "${YOUR_USERNAME}"
+      POSTGRES_PASSWORD: "${YOUR_PASSWORD}"
+      POSTGRES_DB: "${YOUR_DB_NAME}"
+    networks:
+      - mynetwork
+    volumes:
+      - ./src/main/resources/db/migration:/docker-entrypoint-initdb.d  # Monta o diretório de migrações
+
+networks:
+  mynetwork:
+    driver: bridge
+
+volumes:
+  postgres_data:
+    driver: local

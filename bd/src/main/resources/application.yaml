@@ -1,0 +1,22 @@
+spring:
+  application:
+    name:
+      music
+  datasource:
+    url: jdbc:postgresql://localhost:5432/dml
+    username: postgres
+    password: acfa
+    driver-class-name: org.postgresql.Driver
+    hikari:
+      maximum-pool-size: 10
+      minimum-idle: 5
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: validate
+    show-sql: true
+  flyway:
+    locations:
+      classpath:db/migration
+    enabled: true
+    baseline-on-migrate: true
