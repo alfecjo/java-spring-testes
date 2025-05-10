@@ -8,7 +8,7 @@
 
 ---
 
-🔗 [![Framework](https://img.shields.io/badge/UTFPR-Avaliação-brightgreen?style=for-the-badge)](./avaliacao_UTFPR)
+🔗 [![Framework](https://img.shields.io/badge/Java_Spring-JPA_H2-brightgreen?style=for-the-badge)](./avaliacao_UTFPR)
 
 <p>
 🚀 Explore avaliação prática do curso de Pós-graduação em Tecnologia Java da <strong>UTFPR - Universidade Tecnológica Federal do Paraná</strong>, disciplina <strong> Banco de Dados</strong>, abordando desenvolvimento com <strong>Java</strong> e <strong>Spring Framework</strong>. O projeto consolida conhecimentos introdutório da stack Java com foco em aplicações robustas e profissionais.
