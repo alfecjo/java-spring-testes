@@ -2,9 +2,9 @@
 ![redes](redes.jpg)
 
 ## Este material foi desenvolvido em resposta a disciplina 'Redes', a qual faz parte do curso de Pós Graduação em Tecnologia Java, ministrado pela Universidade Tecnológica Federal do Paraná.
-🎉 Os projetos estão distribuídos nos branch's e são exercícios solicitados ao longo do curso que juntos perfazem a nota que compõem a média final.
+🎉 São exercícios solicitados ao longo do curso que juntos perfazem a nota que compõem a média final.
 
-🥋 Se você está entrando no Java agora, vou deixar um comentário apenas para orientá-lo, caso considere o código deste exercício estranho. Este exercício, foi considerado pelo professor e os demais colegas como HARD. (_😎tirei nota máxima_), contudo, o assunto aqui é REDES. Isso, por si só, não é nada convencional para desenvolvedores acostumados com DevWeb. Caso se identifique, considere que REDES é uma potencialidade do Java explorada por poucos, más que pode perfeitamente unir forças com o desenvolvimento web. É perfeitamente possível que uma aplicação Java-Swing + Java-Spring, possua funcionalidades associadas as bibliotecas de REDE (lan - local area network), inclusive RMI para aumentar sua eficiência.
+🥋 Se você está entrando no Java agora, vou deixar um comentário apenas para orientá-lo, caso considere o código deste exercício estranho. Este exercício, foi considerado pelo professor e os demais colegas como HARD, contudo, o assunto aqui é REDES. Isso, por si só, não é nada convencional para desenvolvedores acostumados com DevWeb. Caso se identifique, considere que REDES é uma potencialidade do Java explorada por poucos, más que pode perfeitamente unir forças com o desenvolvimento web. É perfeitamente possível que uma aplicação Java-Swing + Java-Spring, possua funcionalidades associadas as bibliotecas de REDE (lan - local area network), inclusive RMI para aumentar sua eficiência.
 
 ## Servidor de Redes
 
