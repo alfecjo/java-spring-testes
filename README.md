@@ -1,12 +1,15 @@
 # 🧪 Java Spring & Testes
-
+---
 🔗 [![Status](https://img.shields.io/badge/Bootcamp-Santander-yellow?style=for-the-badge)](./bootcamp-santander-soulCode-universia)
 <p>
   🚀 Explore o Bootcamp Santander com foco em <strong>Java</strong>, <strong>HTML</strong>, <strong>CSS</strong> e <strong>JavaScript</strong>. Uma jornada completa com fundamentos de back-end e front-end, ideal para quem busca uma formação básica e prática em desenvolvimento web.
 </p>
-
+---
 🔗 [![Framework](https://img.shields.io/badge/Spring-Boot-brightgreen?style=for-the-badge)](https://spring.io/projects/spring-boot)
-
+<p>
+  Avaliação prática do curso de Pós-graduação em Tecnologia Java da <strong>UTFPR - Universidade Tecnológica Federal do Paraná</strong>, abordando desenvolvimento com <strong>Java</strong> e <strong>Spring Framework</strong>. O projeto consolida conhecimentos introdutório da stack Java com foco em aplicações robustas e profissionais.
+</p>
+---
 🔗 [![Linguagem](https://img.shields.io/badge/Linguagem-Java-blue?style=for-the-badge)](https://www.oracle.com/java/)
 
 🔗 [![Testes](https://img.shields.io/badge/Testes-JUnit_5_&_Mockito-orange?style=for-the-badge)](https://junit.org/junit5/)
