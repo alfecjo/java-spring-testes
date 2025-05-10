@@ -22,11 +22,15 @@
 🎓 Explore avaliação prática da disciplina <strong>Java I</strong> do curso de Pós-graduação em Tecnologia Java da <strong>UTFPR - Universidade Tecnológica Federal do Paraná</strong>. Esta etapa introdutória explora os fundamentos essenciais da linguagem <strong>Java</strong>, como sintaxe, estruturas de controle, orientação a objetos, tratamento de exceções e manipulação básica de dados. Ideal para consolidar a base do desenvolvimento profissional com Java puro.
 </p>
 
+---
+
 🔗 [![Linguagem](https://img.shields.io/badge/Linguagem-Java_II-blue?style=for-the-badge)](./java_II)
 
 <p>
 🎓 Explore avaliação prática da disciplina <strong>Java II</strong> do curso de Pós-graduação em Tecnologia Java da <strong>UTFPR - Universidade Tecnológica Federal do Paraná</strong>. Esta fase aprofunda os conceitos de programação com <strong>Java</strong>, incluindo coleções, tratamento avançado de exceções, entrada/saída de dados (I/O), programação orientada a eventos e uso de bibliotecas utilitárias. Um passo essencial para avançar no desenvolvimento de aplicações robustas.
 </p>
+
+---
 
 🔗 [![Linguagem](https://img.shields.io/badge/Java-Redes_de_Computadores-blue?style=for-the-badge)](./redes)
 
