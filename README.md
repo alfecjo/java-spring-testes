@@ -2,7 +2,7 @@
 
 🔗 [![Status](https://img.shields.io/badge/Bootcamp-Santander-yellow?style=for-the-badge)](./bootcamp-santander-soulCode-universia)
 <p>
-  🚀 Explore o Bootcamp Santander com foco em <strong>Java</strong>, <strong>HTML</strong>, <strong>CSS</strong> e <strong>JavaScript</strong>. Uma jornada completa com fundamentos de back-end e front-end, ideal para quem busca uma formação sólida e prática em desenvolvimento web.
+  🚀 Explore o Bootcamp Santander com foco em <strong>Java</strong>, <strong>HTML</strong>, <strong>CSS</strong> e <strong>JavaScript</strong>. Uma jornada completa com fundamentos de back-end e front-end, ideal para quem busca uma formação básica e prática em desenvolvimento web.
 </p>
 
 🔗 [![Framework](https://img.shields.io/badge/Spring-Boot-brightgreen?style=for-the-badge)](https://spring.io/projects/spring-boot)
