@@ -64,7 +64,7 @@ Exercitar o conceito e a prática de Race Condition e Critical Sections através
 1. Clone o repositório ou baixe o arquivo .zip:
 
 ```bash
-git clone https://github.com/alfecjo/Java-II.git
+git clone https://github.com/alfecjo/Java_II.git
 ```
 ## Uso
 
