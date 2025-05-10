@@ -30,7 +30,13 @@
 
 ---
 
-🔗 [![Testes](https://img.shields.io/badge/Testes-JUnit_5_&_Mockito-orange?style=for-the-badge)](https://junit.org/junit5/)
+🔗 [![Linguagem](https://img.shields.io/badge/Java-Redes_de_Computadores-blue?style=for-the-badge)](./redes)
+
+<p>
+🎓 Avaliação prática da disciplina <strong>Programação Java para Redes de Computadores</strong> do curso de Pós-graduação em Tecnologia Java da <strong>UTFPR - Universidade Tecnológica Federal do Paraná</strong>. Esta etapa explora a criação de aplicações cliente-servidor usando <strong>sockets TCP/UDP</strong>, manipulação de <strong>streams de dados</strong>, <strong>protocolos de comunicação</strong> e fundamentos de <strong>programação distribuída</strong> com Java. Ideal para quem busca aplicar a linguagem na área de redes e sistemas conectados.
+</p>
+
+---
 
 🔗 [![Licença](https://img.shields.io/badge/Licença-MIT-green?style=for-the-badge)](LICENSE)
 
