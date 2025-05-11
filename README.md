@@ -10,7 +10,7 @@ Este repositório contém exemplos práticos de **testes automatizados em aplica
 
 ## 🚀 Tecnologias Utilizadas
 
-- ☕ **Java 17+**
+- ☕ **Java 11+**
 - 🌱 **Spring Boot 3.x**
 - ✅ **JUnit 5 (Jupiter)**
 - 🧪 **Mockito**
