@@ -72,12 +72,11 @@ Este repositório contém exemplos práticos de **testes automatizados em aplica
 
 ---
 
-🔗 [![Testes](https://img.shields.io/badge/Microserviços-Eureka-green?style=for-the-badge)](./eureka)
+🔗 [![Testes](https://img.shields.io/badge/Microserviços-Eureka-green?style=for-the-badge)](https://github.com/alfecjo/eureka)
 
-🔗 [![Testes](https://img.shields.io/badge/Microserviços-Discoveryclient_with_Loadbalancer-red?style=for-the-badge)](./discoveryclient-with-loadbalancer)
+🔗 [![Testes](https://img.shields.io/badge/Microserviços-Discoveryclient_with_Loadbalancer-red?style=for-the-badge)](https://github.com/alfecjo/discoveryclient-with-loadbalancer)
 
-🔗 [![Testes](https://img.shields.io/badge/Microserviços-Discoveryclient-purple?style=for-the-badge)](./discovery-client
-)
+🔗 [![Testes](https://img.shields.io/badge/Microserviços-Discoveryclient-purple?style=for-the-badge)](https://github.com/alfecjo/discovery-client)
 
 <p> 🎓 🔗 Explore o Poder dos Microserviços com Spring! 🚀
 Descubra como microserviços realmente conversam entre si!
