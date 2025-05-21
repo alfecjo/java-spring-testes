@@ -72,6 +72,20 @@ Este repositório contém exemplos práticos de **testes automatizados em aplica
 
 ---
 
+🔗 [![Testes](https://img.shields.io/badge/Microserviços-Eureka-green?style=for-the-badge)](./eureka)
+
+🔗 [![Testes](https://img.shields.io/badge/Microserviços-Discoveryclient_with_Loadbalancer-red?style=for-the-badge)](./discoveryclient-with-loadbalancer)
+
+🔗 [![Testes](https://img.shields.io/badge/Microserviços-Discoveryclient-purple?style=for-the-badge)](./discovery-client
+)
+
+<p> 🎓 🔗 Explore o Poder dos Microserviços com Spring! 🚀
+Descubra como microserviços realmente conversam entre si!
+Essa aplicação integra Eureka, Feign Client e autenticação para entregar uma arquitetura dinâmica, escalável e pronta para produção. Veja na prática como o serviço se registra, descobre outros automaticamente e se comunica com eficiência — tudo isso com balanceamento de carga inteligente e zero dor de cabeça com URLs fixas.
+➡️ Clique e mergulhe no ecossistema Spring de microserviços em ação! </p>
+
+---
+
 🔗 [![Licença](https://img.shields.io/badge/Licença-MIT-green?style=for-the-badge)](LICENSE)
 
 ---
