@@ -2,7 +2,7 @@
 
 ## 📌 Descrição
 
-Este repositório contém exemplos práticos de **testes automatizados em aplicações Java Spring**, utilizando os frameworks **JUnit 5**, **Mockito**, **Spring Test**, e outras ferramentas modernas. O foco está em demonstrar boas práticas de **testes unitários, de integração, mock e testes de camada web (MockMvc)**, incluindo cobertura de código e organização modular dos testes.
+Este repositório contém exemplos relacionados a diversas vertentes Java Spring, bem como, µServices, BD, práticos de **testes automatizados em aplicações Java Spring**, entre muitos outros, utilizando os frameworks **JUnit 5**, **Mockito**, **Spring Test**, e outras ferramentas modernas. O foco está em demonstrar boas práticas de **testes unitários, de integração, mock e testes de camada web (MockMvc)**, incluindo cobertura de código e organização modular dos testes.
 
 > ⚠️ **Este projeto está em desenvolvimento.** Algumas funcionalidades podem estar incompletas ou sujeitas a mudanças.
 
